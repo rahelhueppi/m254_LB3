@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "label": "E-Mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1v5bkra",
+        "columns": null
+      },
+      "id": "Field_1f41sw9",
+      "key": "email",
+      "description": "The email, the result should be sended to"
+    },
+    {
+      "label": "Query",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1dhefox",
+        "columns": null
+      },
+      "id": "Field_12a3pzy",
+      "key": "query",
+      "description": "recipe search query"
+    },
+    {
+      "label": "Cuisine",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1y68154",
+        "columns": null
+      },
+      "id": "Field_1p7rial",
+      "key": "cuisine"
+    },
+    {
+      "label": "Intolerances",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_07uyzqq",
+        "columns": null
+      },
+      "id": "Field_1ik932p",
+      "key": "intolerances"
+    },
+    {
+      "label": "Include Ingredients",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15stadr",
+        "columns": null
+      },
+      "id": "Field_0ohzflu",
+      "key": "includeIngredients"
+    },
+    {
+      "label": "Exclude Ingredients",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0q1e97o",
+        "columns": null
+      },
+      "id": "Field_09xgdb9",
+      "key": "excludeIngredients"
+    },
+    {
+      "label": "Type",
+      "values": [
+        {
+          "label": "Main Course",
+          "value": "main course"
+        },
+        {
+          "label": "Side dish",
+          "value": "side dish"
+        },
+        {
+          "label": "Dessert",
+          "value": "dessert"
+        },
+        {
+          "label": "Appetizer",
+          "value": "appetizer"
+        },
+        {
+          "label": "Salad",
+          "value": "salad"
+        },
+        {
+          "label": "Bread",
+          "value": "bread"
+        },
+        {
+          "label": "Breakfast",
+          "value": "breakfast"
+        },
+        {
+          "label": "Soup",
+          "value": "soup"
+        },
+        {
+          "label": "Beverage",
+          "value": "beverage"
+        },
+        {
+          "label": "Sauce",
+          "value": "sauce"
+        },
+        {
+          "label": "Marinade",
+          "value": "marinade"
+        },
+        {
+          "label": "Fingerfood",
+          "value": "fingerfood"
+        },
+        {
+          "label": "Snack",
+          "value": "snack"
+        },
+        {
+          "label": "Drink",
+          "value": "drink"
+        }
+      ],
+      "type": "select",
+      "layout": {
+        "row": "Row_1akaavs",
+        "columns": null
+      },
+      "id": "Field_1vog7au",
+      "key": "type"
+    },
+    {
+      "label": "Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_1k5v93i",
+        "columns": null
+      },
+      "id": "Field_06t43ce",
+      "key": "number",
+      "defaultValue": 5,
+      "description": "The number of expected Results (Default: 5)"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1t29xpd",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.32.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}
